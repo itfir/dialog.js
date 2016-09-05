@@ -12,8 +12,8 @@ defaults = {
             };
 
 #使用方法
-
+/n
 $.fir.dialog().show();
-
-var dialog = $.fir.dialog({content : "提示内容"}).show();
+/n
+var dialog = $.fir.dialog({content : "提示内容"}).show();/n
 dialog.hide() 等价于 $.fir.dialog().hide();
