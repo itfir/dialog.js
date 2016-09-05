@@ -3,12 +3,19 @@
 
 #可选配置项
 defaults = {
+
   title : '提示',
+  
   content : '您是否需要继续操作？',
+  
   yes : '确定',
+  
   no : '',
+  
   yep : function(){},//确定回调
+  
   nop : function(){}//取消回调
+  
 };
 
 #使用方法
